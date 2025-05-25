@@ -32,4 +32,4 @@ if 'f' in s:
     print(True)
 
 #Accesing positions
-print(s[2])
+print(s[2]) 
