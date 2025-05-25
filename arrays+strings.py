@@ -1,6 +1,5 @@
 a = [1, 2, 3]
-
-#print(a)
+print(a)
 
 #Append - Insert element at end of array - On average: O(1)
 a.append(5)
