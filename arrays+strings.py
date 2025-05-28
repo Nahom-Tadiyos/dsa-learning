@@ -33,3 +33,16 @@ if 'f' in s:
 
 #Accesing positions
 print(s[2]) 
+
+#Reordering an integer in desecnging order
+def reorder_integer(n):
+    newN = []
+    for I in str(n):
+        newN.append(I)
+        newN.sort(reverse=True)
+    
+    n = ''.join(map(str, newN))
+    print(int(n))
+
+
+reorder_integer(34327)
