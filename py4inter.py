@@ -38,8 +38,7 @@ print(5/2)
 print(5//2)
 
 #use decimal division then convert to int
-print(int*-3/2)
+print(int(-3/2))
 
 #Modding 
 print(10%3)
-
